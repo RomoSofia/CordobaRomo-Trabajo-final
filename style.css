@@ -99,9 +99,15 @@ header {
 }
 
 .hero-visual {
+    width: calc(100% + 2rem);
+    min-height: 220px;
+    margin: 0 -1rem 1.2rem;
+    border-radius: 2px;
+    overflow: hidden;
     background-image: url('fotopagina.webp');
     background-size: cover;
     background-position: center;
+    border: 1px solid #e2e2e2;
 }
 
 .hero-visual span {
